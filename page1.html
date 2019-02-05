@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html><head>
+<title>Main Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ .searchbar{margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 100px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    }
+    .btn{
+        border-radius: 30px;
+    }
+    #img2
+    {
+        margin-top: 40px;
+        margin-left:15px;
+        width: 200px;
+        height: 180px;
+        border-radius: 20px;
+    }
+    .row{
+        margin-top:40px;
+    }
+  .leftbox{
+margin-left:50px;
+
+  }
+  #leftop{
+      margin-bottom:120%;
+  }
+</style>
+</head>
+<body>
+
+
+
+<div class="w3-row w3-border w3-red">
+  <div class="w3-container w3-third ">
+    <h2>Grizzly-store</h2>  
+  
+  </div>
+ 
+  <div class="w3-container w3-third">
+
+     <div class="container ">
+      <div class="d-flex justify-content-center ">
+        <div class="searchbar">
+          <input class="search_input" type="text" name="" placeholder="Search...">
+          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+   <div class="w3-container w3-third">
+
+     <div class="container h-100">
+         <div class="container">
+      
+     <span> <i class="fa fa-bell" aria-hidden="true" style="margin-top: 30px;"></i></span>
+     <span style="margin-left:40px;"> Welcome ,admin</span>
+      <span style="margin-left:50px;"> <button type="button" class="btn" align="right">Logout</button></span>
+
+          
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
+<div class="row">
+    <div class= "container   w3-third">
+        <div class="container w3-half w3-grey">
+        
+            <div class="container w3-green" style="padding:15px">
+                <h3>PROFILE</h3>
+            </div>
+            <img src="images/grizzly.png"   class="img-rounded" id="img2">
+            <div class="leftbox">
+              <h3 style="margin-left:40px">ID</h3>
+              <h5>AVBGDJDU76655</h6>
+
+
+              <div >
+                  <h4 style="margin-left:20px">Designation</h4>
+                  <h6 style="margin-left:25px">Sr.Admin</h6>
+                  </div>
+              <div id="leftop">
+                  <h4 style="margin-left:30px">Office</h4>
+                  <h6>New Jersey,U.S.A</h6>
+                  </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+           
+    </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class=" container w3-twothird w3-grey">
+        </div>
+    </div>
+    </body>
+    </html>
